@@ -18,4 +18,15 @@
     background-color: #ff7779;
     color: white; /* change text color of button */
     text-transform: inherit; /* MaterialUI puts all text in button in uppercase by default. This makes sure this doesn't happend */
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
 }
