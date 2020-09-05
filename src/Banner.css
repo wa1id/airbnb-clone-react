@@ -16,6 +16,6 @@
 
 .banner__info > button {
     background-color: #ff7779;
-    color: white;
-    text-transform: inherit;
+    color: white; /* change text color of button */
+    text-transform: inherit; /* MaterialUI puts all text in button in uppercase by default. This makes sure this doesn't happend */
 }
