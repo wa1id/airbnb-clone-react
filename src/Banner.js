@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import DatePicker from './DatePicker'
 
 function Banner() {
-    const [showSearch, setShowSearch] = useState (false);
+    const [showSearch, setShowSearch] = useState(false);
 
     return (
         <div className='banner'>
