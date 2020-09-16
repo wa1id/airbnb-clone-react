@@ -26,3 +26,7 @@
     top: 420px;
     border: none;
 }
+
+.datepicker > input:focus {
+    outline-width: 0;
+}
